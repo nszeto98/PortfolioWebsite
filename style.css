@@ -4,22 +4,30 @@
   text-align: center;
 }
 
-body header div {
+.right-align {
+  text-align: right;
+}
+
+body header p ,
+body footer p{
   background-color: #6b9080;
-  background-size: 300px 200px;
-  padding: 5px;
-
+  background-size: 270px;
+  padding: 10px;
+  margin: 0px;
 }
 
-body header div h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 56px;
-  margin: 5px;
+body main div h1{
+  font-family: "Waterfall";
+  font-size: 100px;
+  margin-top: 250px;
+  margin-bottom: 0px;
 }
 
-body header div p{
-  font-size: 20px;
-  font-family: "Comic Sans MS"
+body main div p{
+  font-size: 26px;
+  font-family: "Comic Sans MS";
+  margin-top: 0px;
+  margin-bottom: 250px;
 }
 
 main{
@@ -27,7 +35,7 @@ main{
   padding: 20px;
 }
 
-body main p{
+body header p{
   font-size: 20px;
   font-family:"Comic Sans MS";
 }
@@ -35,6 +43,27 @@ body main p{
 body main section p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-footer {
-  
+
+body section h2{
+  font-family: "Oooh Baby";
 }
+
+hr {
+margin: 20px;
+border-width: 2px;
+color: black;
+}
+
+li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+
+a {
+font-family: "Comic Sans MS", sans-serif;
+font-size: 18px;
+}
+a:link    { color: rgb(14, 41, 14);  }
+a:visited { color: rgb(127, 156, 67);   }
+a:hover   { color: olive; }
+a:active  { color: green;  }
