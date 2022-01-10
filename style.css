@@ -4,6 +4,13 @@
   text-align: center;
 }
 
+.centerPhoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .right-align {
   text-align: right;
 }
@@ -55,9 +62,9 @@ body section h2{
 }
 
 hr {
-margin: 20px;
-border-width: 2px;
-color: black;
+  margin: 20px;
+  border-width: 2px;
+  color: black;
 }
 
 li {
@@ -66,8 +73,8 @@ li {
 }
 
 a , body section p a{
-font-family: "Comic Sans MS", sans-serif;
-font-size: 28px;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 28px;
 }
 a:link    { color: black;  }
 a:visited { color: black;   }
@@ -82,4 +89,8 @@ padding-top: 100px;
 .space bottom{
   margin-bottom: 100px;
   padding-bottom: 100px;
+}
+
+body main img {
+  border-radius: 50%;
 }
