@@ -1,9 +1,11 @@
 {box-sizing: boarder-box;}
 
+/* center items */
 .center {
   text-align: center;
 }
 
+/* center photo */
 .centerPhoto {
   display: block;
   margin-left: auto;
@@ -11,10 +13,12 @@
   width: 50%;
 }
 
+/* sets alignment to the right */
 .right-align {
   text-align: right;
 }
 
+/* create background color for nav bar */
 body header p ,
 body main footer p{
   background-color: #6b9080;
@@ -23,6 +27,7 @@ body main footer p{
   margin: 0px;
 }
 
+/* sets text for heading on landing page */
 body main div h1{
   font-family: "Waterfall";
   font-size: 100px;
@@ -30,6 +35,7 @@ body main div h1{
   margin-bottom: 0px;
 }
 
+/* sets text for subheading under the heading on landing page */
 body main div h3{
   font-size: 40px;
   font-family: "Comic Sans MS";
@@ -37,16 +43,19 @@ body main div h3{
   margin-bottom: 250px;
 }
 
+/* sets main background color */
 main{
   background-color: #a3bbad;
   padding: 28px;
 }
 
+/* changes font of all <p> fonts inside nav bar */
 body header p{
   font-size: 28px;
   font-family:"Comic Sans MS";
 }
 
+/* changes font of all paragraphs inside body */
 body main section p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 28px;
@@ -56,22 +65,26 @@ body main section p {
   padding-right: 20px;
 }
 
+/* set font of subheadings for each section  (intro, about me, contact)*/
 body section h2{
   font-family: "Oooh Baby";
   font-size: 36px;
 }
 
+/* horizontal rule properties */
 hr {
   margin: 20px;
   border-width: 2px;
   color: black;
 }
 
+/* font of list items */
 li {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 28px;
 }
 
+/* font and size for links */
 a , body section p a{
   font-family: "Comic Sans MS", sans-serif;
   font-size: 28px;
@@ -81,16 +94,18 @@ a:visited { color: black;   }
 a:hover   { color: olive; }
 a:active  { color: green;  }
 
+/* add space above object */
 .space top{
 margin-top: 100px;
 padding-top: 100px;
 }
 
+/* add space at bottom of object */
 .space bottom{
   margin-bottom: 100px;
   padding-bottom: 100px;
 }
-
+/* this changes the photo under "intro" */
 body main img {
   border-radius: 50%;
   height: 240px;
