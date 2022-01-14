@@ -108,5 +108,5 @@ padding-top: 100px;
 /* this changes the photo under "intro" */
 body main img {
   border-radius: 50%;
-  height: 240px;
+  width: 380px;
 }
